@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 
 const {
   creaIdentita,
@@ -7,7 +8,19 @@ const {
 } = require("./index");
 
 const app = express();
+
+// ==========================
+// MIDDLEWARE
+// ==========================
+app.use(cors());
 app.use(express.json());
+
+// ==========================
+// ROUTE BASE (test server)
+// ==========================
+app.get("/", (req, res) => {
+  res.json({ status: "Human-ID API is running" });
+});
 
 // ==========================
 // CREA IDENTITÀ
@@ -53,8 +66,11 @@ app.get("/verify/:id", (req, res) => {
   res.json(result);
 });
 
+// ==========================
+// SERVER START
+// ==========================
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server avviato su http://localhost:${PORT}`);
+  console.log(`Server avviato sulla porta ${PORT}`);
 });
