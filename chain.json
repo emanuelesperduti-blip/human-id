@@ -1,0 +1,46 @@
+[
+  {
+    "index": 1771360968814,
+    "previousHash": "GENESIS",
+    "identita": {
+      "id": "e1c43acf2439732a4343bd481dd21bd0",
+      "createdAt": "2026-02-17T20:42:48.813Z",
+      "verificationLevel": "AI_PENDING",
+      "status": "ACTIVE"
+    },
+    "hash": "7e5242e231ce0411b77cb749bc85bbf1a0b7ed10c09672dbfd4fea98ef169a93"
+  },
+  {
+    "index": 1771360969997,
+    "previousHash": "7e5242e231ce0411b77cb749bc85bbf1a0b7ed10c09672dbfd4fea98ef169a93",
+    "identita": {
+      "id": "ad15c034cfbd5f4c05aa8ead766fd916",
+      "createdAt": "2026-02-17T20:42:49.997Z",
+      "verificationLevel": "AI_PENDING",
+      "status": "ACTIVE"
+    },
+    "hash": "bd24220f7b605272c4a07144773bd86e35bdd0b8f7bbeab0c81c1a06dddcb438"
+  },
+  {
+    "index": 1771360970997,
+    "previousHash": "bd24220f7b605272c4a07144773bd86e35bdd0b8f7bbeab0c81c1a06dddcb438",
+    "identita": {
+      "id": "8b88e24c90670eedede529a2a5e9fa39",
+      "createdAt": "2026-02-17T20:42:50.996Z",
+      "verificationLevel": "AI_PENDING",
+      "status": "ACTIVE"
+    },
+    "hash": "3bdcd03d0ddb52d33de0bdeb3e5d144ff99491c855135aeea6a12bdfa0c440a9"
+  },
+  {
+    "index": 1771361160315,
+    "previousHash": "3bdcd03d0ddb52d33de0bdeb3e5d144ff99491c855135aeea6a12bdfa0c440a9",
+    "identita": {
+      "id": "1991c771a71629599a41e8f9d9dc0d77",
+      "createdAt": "2026-02-17T20:46:00.314Z",
+      "verificationLevel": "AI_PENDING",
+      "status": "ACTIVE"
+    },
+    "hash": "0351755068e8e225d1ede3a51ae593522c8b6af536ebba45d7d334d3e74b83cc"
+  }
+]

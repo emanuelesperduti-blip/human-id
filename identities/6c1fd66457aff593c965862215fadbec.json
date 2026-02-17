@@ -1,0 +1,13 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-02-17T20:57:17.595Z",
+    "event": "CREATION",
+    "data": {
+      "verificationLevel": "AI_PENDING",
+      "status": "ACTIVE"
+    },
+    "previousHash": "GENESIS",
+    "hash": "1464df751bf68f9701fc8f09210fa7d3e6c0c355396406afbb78377c44eb93b8"
+  }
+]
